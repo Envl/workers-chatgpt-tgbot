@@ -1,0 +1,14 @@
+name = "workers-chatgpt-tgbot"
+main = "src/index.ts"
+compatibility_date = "2022-12-10"
+
+[vars]
+TG_BOT_TOKEN = "<TELEGRAM_BOT_TOKEN>"
+CHAT_GPT_COOKIE="<CHAT_GPT_COOKIE>"
+
+[[kv_namespaces]]
+binding = "KV_STORE"
+id = "<WORKERS_KV_ID>"
+preview_id = "<WORKERS_KV_ID>"
+
+
