@@ -2,7 +2,9 @@
 
 ## feature
 
-- supports thread
+- supports thread  
+![image](https://user-images.githubusercontent.com/9925116/206849903-fe23684c-be9e-4b7b-9215-2e1aed8076c2.png)
+
 
 ## usage
 
