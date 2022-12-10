@@ -23,14 +23,17 @@ binding = "KV_STORE"
 id = "<WORKERS_KV_ID>"
 ```
 
-### 1. generate types for environment variables
+### 2. publish
+
+`wrangler publish`
+
+## development
+
+### 0. generate types for environment variables
 
 `wrangler types`
 
-### 2. dev
+### 1. dev
 
 `wrangler dev`
 
-### 3. publish
-
-`wrangler publish`
