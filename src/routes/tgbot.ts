@@ -15,7 +15,9 @@ export async function handleTgBotWebhookPOST(req: Request, env: Env) {
         ) === '/ask'
       : false
 
-  const isFollowUp = update.message?.reply_to_message?.message_id !== undefined
+  const isFollowUp = env.TG_BOT_TOKEN.startsWith(
+    String(update.message?.reply_to_message?.from?.id)
+  )
 
   const msg = update.message
 
